@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LearnXamarin.Views.PanGestureRecognizerView"
+             xmlns:localViewModels="clr-namespace:LearnXamarin.ViewModels">
+    <ContentPage.Content>
+        <AbsoluteLayout >
+            <localViewModels:PanGestureRecognizerContent>
+                <StackLayout>
+                    <Button Text="Done? Go Back"
+                           Clicked="Button_Clicked"
+                            HorizontalOptions="StartAndExpand"/>
+                    <Image Source="Africa" 
+                        WidthRequest="768"
+                       HeightRequest="1000"/>
+                </StackLayout>
+            </localViewModels:PanGestureRecognizerContent>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
