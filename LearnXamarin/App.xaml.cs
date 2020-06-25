@@ -11,7 +11,7 @@ namespace LearnXamarin
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new  SignalRTestView());
+            MainPage = new NavigationPage(new BottomSlider());
         }
 
         protected override void OnStart()
